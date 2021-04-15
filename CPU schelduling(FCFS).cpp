@@ -26,8 +26,6 @@ int main()
 		avtat+= tat[i];
 		cout<<endl<<"Process["<<i+1<<"]"<<"\t"<<bt[i]<<"\t\t"<<wt[i]<<"\t\t"<<tat[i];
     }
-   // avwt != i;
-	//avtat != i;
 	cout<<endl<<endl<<"Average Wating Time: "<<avwt;
 	cout<<endl<<"Average Turnaround Time: "<<avtat;
 	
